@@ -8,7 +8,7 @@ public class SearchElementInStringArray {
 
 		for (int i = 0; i <= str.length - 1; i++) {
 			if (str[i] == element) {
-				System.out.println("Found"+" "+"Index"+" "+i);
+				System.out.println("Found" + " " + "Index" + " " + i);
 				return;
 			}
 		}
