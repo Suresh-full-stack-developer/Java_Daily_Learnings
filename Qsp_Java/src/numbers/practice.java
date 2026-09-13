@@ -5,8 +5,7 @@ import java.util.Scanner;
 //prime number
 
 public class practice {
-
-//	public static void main(String[] args) {
+	public static void main(String[] args) {
 //		int num=21;
 //		int count=0;
 //		for(int i=1;i<=num;i++) {
@@ -24,11 +23,11 @@ public class practice {
 //		}
 //		
 //	}
-	//------------------------------------------------------------
+		// ------------------------------------------------------------
 
-	// sum of prime number factors
+		// sum of prime number factors
 
-	// public static void main(String[] args) {
+		// public static void main(String[] args) {
 //		Scanner sc=new Scanner(System.in);
 //		System.out.println("Enter the start value:");
 //		int start=sc.nextInt();
@@ -42,11 +41,11 @@ public class practice {
 //				System.out.println("factor:"+i+" "+"sum"+sum);
 //			}
 //		}
-	//------------------------------------------------------------
+		// ------------------------------------------------------------
 //		
 //		
 
-	// reverse the number
+		// reverse the number
 
 //	public static void main(String[] args) {
 //		int num = 1234;
@@ -59,9 +58,9 @@ public class practice {
 //		}
 //
 //	}
-	//-------------------------------------------------
+		// -------------------------------------------------
 
-	// print even or odd in given number
+		// print even or odd in given number
 
 //	
 //	public static void main(String[] args) {
@@ -72,19 +71,19 @@ public class practice {
 //		else {
 //			System.out.println("It's an odd number");
 //		}
-	//--------------------------------------------------------
+		// --------------------------------------------------------
 
-	// extarct the last one digit
+		// extarct the last one digit
 
 //	public static void main(String[] args) {
 //		int num=115;
 //		int ex=num%100;
 //		System.out.print(ex);
 //	}
-	//---------------------------------------------
-	
-	// remove the digits 
-	
+		// ---------------------------------------------
+
+		// remove the digits
+
 //	public static void main(String[] args) {
 //		int number=1234;
 //		int remove =number/10;
@@ -93,11 +92,9 @@ public class practice {
 //	}
 //	
 //	----------------------------------------------------
-	
-	
-	
-	// sum of the each given digits
-	
+
+		// sum of the each given digits
+
 //	public static void main(String[] args) {
 //		int num=12345;
 //		int sum=0;
@@ -106,26 +103,18 @@ public class practice {
 //		
 //		System.out.println(sum);
 //	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+		// print the count of the given number
+
+		int num = 1234586685;
+		int count=0;
+
+		while(num>0) {
+
+			num=num/10;
+			count++;
+		}
+		System.out.println(count);
+
+	}
 }
