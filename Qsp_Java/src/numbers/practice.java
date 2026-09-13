@@ -106,15 +106,34 @@ public class practice {
 
 		// print the count of the given number
 
-		int num = 1234586685;
-		int count=0;
-
+//		int num = 1234586685;
+//		int count=0;
+//
+//		while(num>0) {
+//
+//			num=num/10;
+//			count++;
+//		}
+//		System.out.println(count);
+//
+//	}
+		
+		// automorphic number
+		
+		int num=6;
+		int sq=num*num;
+		int temp=num;
+		int pow=1;
+		
 		while(num>0) {
-
 			num=num/10;
-			count++;
+			pow*=10;
 		}
-		System.out.println(count);
-
+		System.out.println(temp==sq%pow ?"Automorphic Number":"Not Automorphic");
+		
+		
+		
+		
+		
 	}
 }
