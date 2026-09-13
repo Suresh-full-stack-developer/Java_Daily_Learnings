@@ -117,23 +117,49 @@ public class practice {
 //		System.out.println(count);
 //
 //	}
-		
+
 		// automorphic number
+
+//		int num = 6;
+//		int sq = num * num;
+//		int temp = num;
+//		int pow = 1;
+//
+//		while (num > 0) {
+//			num = num / 10;
+//			pow *= 10;
+//		}
+//		System.out.println(temp == sq % pow ? "Automorphic Number" : "Not Automorphic");
+//
+//	}
+		
+		
+		//Armstrong Number
+		
 		
 		int num=6;
-		int sq=num*num;
 		int temp=num;
+		int temp1=num;
+		int count=0;
 		int pow=1;
+		int sum=0;
 		
 		while(num>0) {
 			num=num/10;
-			pow*=10;
+			count++;
 		}
-		System.out.println(temp==sq%pow ?"Automorphic Number":"Not Automorphic");
+		while(temp>0) {
+			int last=temp%10;
+			
+		}
+			
+		}
 		
 		
 		
 		
 		
-	}
+		
+		
+		
 }
