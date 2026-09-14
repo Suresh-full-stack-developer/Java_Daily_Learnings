@@ -27,11 +27,11 @@ public class ImagePattern {
     	
         try {
         	//Surya	
-        	//  File file = new File("E:/QSpiders/Wallpaper/aa12448b2dfdb494195c8cd8a60a66aa (1).jpg");
+           // File file = new File("C:/Users/sures/Downloads/Ganesh.jpg");
         	//File file = new File("C:/Qsp_Java/black and white.jpeg");
-        	File file = new File("C:/Qsp_Java/Thalapathy.jpeg");
-        	//  File file = new File("C:/Users/ASUS/Downloads/vijay4.jpg");
-        	//  File file = new File("C:/Users/ASUS/Downloads/vijay3.jpg");
+        	//File file = new File("C:/Qsp_Java/Thalapathy.jpeg");
+        	 //File file = new File("C:/Users/sures/Downloads/img.jpeg");
+        	 File file = new File("S:/Common/IMG-20250823-WA0000.jpg");
 
             BufferedImage img = ImageIO.read(file);
 

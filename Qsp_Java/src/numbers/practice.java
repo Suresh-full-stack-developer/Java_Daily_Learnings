@@ -132,34 +132,64 @@ public class practice {
 //		System.out.println(temp == sq % pow ? "Automorphic Number" : "Not Automorphic");
 //
 //	}
-		
-		
-		//Armstrong Number
-		
-		
-		int num=6;
-		int temp=num;
-		int temp1=num;
-		int count=0;
-		int pow=1;
-		int sum=0;
-		
-		while(num>0) {
-			num=num/10;
-			count++;
+
+		// Armstrong Number
+
+//		int num=6;
+//		int temp=num;
+//		int temp1=num;
+//		int count=0;
+//		int pow=1;
+//		int sum=0;
+//		
+//		while(num>0) {
+//			num=num/10;
+//			count++;
+//		}
+//		while(temp>0) {
+//			int last=temp%10;
+//			
+//		}
+//			
+//		}
+
+		// To find how many notes present in the given amount
+
+		int Amount = 100000;
+
+		System.out.println("To find how many notes present in the given amount:)");
+
+		if (Amount >= 2000) {
+			System.out.println("2000 rupe:" + Amount / 2000);
 		}
-		while(temp>0) {
-			int last=temp%10;
-			
+		if (Amount >= 500) {
+			System.out.println("500 rupee:" + Amount / 500);
 		}
-			
+		if (Amount >= 200) {
+			System.out.println("200 rupee:" + Amount / 200);
 		}
-		
-		
-		
-		
-		
-		
-		
-		
+		if (Amount >= 100) {
+			System.out.println("100 rupee:" + Amount / 100);
+		}
+		if (Amount >= 50) {
+			System.out.println("50 rupee:" + Amount / 50);
+		}
+		if (Amount >= 20) {
+			System.out.println("20 rupee:" + Amount / 20);
+		}
+		if (Amount >= 10) {
+			System.out.println("10 rupee:" + Amount / 10);
+		}
+
+		if (Amount >= 5) {
+			System.out.println("5 rupee coin:" + Amount / 5);
+		}
+		if (Amount >= 2) {
+			System.out.println("2 rupee coin:" + Amount / 2);
+		}
+		if (Amount >= 1) {
+			System.out.println("1 rupee coin:" + Amount / 1);
+		}
+
+	}
 }
