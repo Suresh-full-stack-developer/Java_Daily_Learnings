@@ -2,31 +2,48 @@ package qsp_java;
 
 public class Practice {
 	
-	static int sumOfDigit(int num) {
-		int sum=0;
-		while(num>0) {
-			sum+=num%10;
-			num/=10;
-		}
-		return sum;
-	}
-	
-	
+	public class NthSmithNumber {
 
-	public static void main(String[] args) {
-		
-		int nth=5;
-		int num=1;
-		
-		int count=0;
-		
-		int res=0;
-		int sum=0;
-		while(num>0) {
-			sum+=sumOfDigit(i);
-			num/=10;
+		static int sumOfDigit(int num) {
+			int sum = 0;
+			while (num > 0) {
+				sum = sum + num % 10;
+				num /= 10;
+			}
+			return sum;
 		}
+
+		public static void main(String[] args) {
+
+			int nth = 10;
+			int count = 0;
+			int res = 0;
+
+			for (int j = 0; count <= nth; j++) {
+				int num = j;
+				int temp = num;
+
+				int sum = 0;
+
+				for (int i = 2; i <= num; i++) {
+					while (num % i == 0) {
+						sum += sumOfDigit(i);
+						num /= i;
+
+					}
+
+				}
+				if (sum == sumOfDigit(temp)) {
+					res = temp;
+					count++;
+				}
+			}
+			System.out.println(nth+""+"th Smith Number is:"+res);
+
+		}
+
 	}
 }
+
 	
 		
