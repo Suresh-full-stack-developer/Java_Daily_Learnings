@@ -13,7 +13,7 @@ public class NthSmithNumber {
 
 	public static void main(String[] args) {
 
-		int nth = 5;
+		int nth = 10;
 		int count = 0;
 		int res = 0;
 
@@ -36,7 +36,7 @@ public class NthSmithNumber {
 				count++;
 			}
 		}
-		System.out.println(res);
+		System.out.println(nth+""+"th Smith Number is:"+res);
 
 	}
 

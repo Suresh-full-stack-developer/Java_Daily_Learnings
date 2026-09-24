@@ -5,14 +5,17 @@ import java.util.Scanner;
 public class prime_number {
 
 	public static void main(String[] args) {
-		int num=12;
+		int num=100;
 		int count=0;
-		for(int i=1;i<num;i++) {
+		for(int i=1;i<=num;i++) {
 		if(num%i==0) {
 			count++;
-			System.out.println(count);
-			
-		}
 		}
 	}
+		if(count==2) {
+			System.out.println("Prime Number");
+		}
+		else
+			System.out.println("Not a Prime Number");
+		}
 }

@@ -1,9 +1,8 @@
-package MockPracticeQuestions;
+package qsp_java;
 
-public class NthPrimeNumber {
+public class NthprimeNumber {
 
 	public static void main(String[] args) {
-
 		int nth =5;
 
 		int count = 0;
@@ -21,10 +20,9 @@ public class NthPrimeNumber {
 
 			if (i == num) {
 				count++;
-
 			}
-
+			
 		}
-		System.out.println(nth+" "+"th Prime Number is:"+ num);
+		System.out.println(nth+" th Prime Number:"+num);
 	}
 }
