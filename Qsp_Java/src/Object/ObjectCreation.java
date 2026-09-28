@@ -1,45 +1,44 @@
 package Object;
 
-import Object.ObjectCreation.Student;
-
 public class ObjectCreation {
-
-	class Student {
+		
 		int id;
 		String name;
 		String Dept;
 		String cName;
-
-		public Student(int id, String name, String dept, String cName) {
-			this.id = id;
-			this.name = name;
-			this.Dept = dept;
-			this.cName = cName;
+		long cNo;
+		
+	public void Student(int id,String name,String Dept,String cName,long cNo) {
+		this.id=id;
+		this.name=name;
+		this.Dept=Dept;
+		this.cName=cName;
+		this.cNo=cNo;}
+	
+		
+		
+		
+		void display() {
+			System.out.println("Object Creation");
+			
+			System.out.println("Id:"+id);
+			System.out.println("Name:"+name);
+			System.out.println("Department:"+Dept);
+			System.out.println("cName:"+cName);
+			System.out.println("Contact No:"+cNo);
+			
 		}
+		
 
-		void display(int id,String name,String Dept,String cName) {
-			System.out.println("This Is Object Creation");
-
-			System.out.println("Id:" + id);
-			System.out.println("Name:" + name);
-			System.out.println("Department:" + Dept);
-			System.out.println("College:" + cName);
-
-		}
 	
 
 	public static void main(String[] args) {
+		   
+		ObjectCreation c=new ObjectCreation();
 		
-		
-	Student s=new Student();
-	
-	s.display(101, "Suresh", "Cse", "Pcet");
-		
-	
-		
+		c.display();
 		
 
 	}
 
-}
 }
