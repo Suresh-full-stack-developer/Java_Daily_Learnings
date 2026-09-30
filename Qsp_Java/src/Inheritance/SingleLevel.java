@@ -6,13 +6,20 @@ public class SingleLevel {
 		int land;
 		double cash;
 		int gold;
+		
+ SingleLevel(int land,double cash,int gold) {
+			this.land=land;
+			this.cash=cash;
+			this.gold=gold;
+			
+		}
 
 	
 	public class child extends SingleLevel{
 		
 		public child() {
-			super();
-		}
+			
+		
 
 		void dance() {
 			System.out.println("Dancing");
