@@ -4,9 +4,9 @@ public class PalindromeOrNot {
 
 	public static void main(String[] args) {
 
-		String name = "racecar";
+		//String name = "racecar";
 		
-		//String name="Suresh";
+		String name="Suresh";
 
 		String temp = "";
 
