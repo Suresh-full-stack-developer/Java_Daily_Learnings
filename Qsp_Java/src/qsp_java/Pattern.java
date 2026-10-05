@@ -3,17 +3,19 @@ package qsp_java;
 public class Pattern {
 
 	public static void main(String[] args) {
-		int n = 4;
-//		for (int i = 0; i <= n; i++) {
-//			for (int j = 0; j <= n; j++) {
-//				System.out.print("*  ");
-//
-//			}
-//			System.out.println();
-//		}
+		int n = 8;
 		
 		
-		//System.out.println();
+		for (int i = 0; i <= n; i++) {
+			for (int j = 0; j <= n; j++) {
+				System.out.print("*  ");
+
+			}
+			System.out.println();
+		}
+		
+		
+		System.out.println();
 		
 		
 		
@@ -133,6 +135,21 @@ public class Pattern {
 			System.out.println();
 		}
 
+		
+		System.out.println("--------------------");
+		
+		
+		
+		for(int i=1;i<=n;i++) {
+			for(int j=1;j<=n;j++) {
+				if(i==n && j==n && i==1 && j==1) {
+					System.out.print("* ");
+				}
+				else
+					System.out.println(" ");
+			}
+			System.out.println();
+		}
 		
 		
 		
