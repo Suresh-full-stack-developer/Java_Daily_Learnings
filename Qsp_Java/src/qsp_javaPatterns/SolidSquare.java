@@ -19,9 +19,10 @@ public class SolidSquare {
 		System.out.println("----------------");
 
 		System.out.println("Hallow Square");
+		System.out.println();
 
 		for (int i = 1; i <= n; i++) {
-			for (int j = 1; j <= i; j++) {
+			for (int j = 1; j <= n; j++) {
 				if (i == n || i == 1 || j == n || j == 1) {
 					System.out.print("* ");
 				} else {

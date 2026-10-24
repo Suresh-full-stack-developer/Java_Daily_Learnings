@@ -7,7 +7,7 @@ public class SumOfEachElementInArray {
 		int ar[] = { 10, 20, 30, 40 };
 
 		for (int i = 0; i <= ar.length - 1; i++) {
-			sum =sum+ar[i];
+			sum +=ar[i];
 		}
 		System.out.println(sum);
 	}
