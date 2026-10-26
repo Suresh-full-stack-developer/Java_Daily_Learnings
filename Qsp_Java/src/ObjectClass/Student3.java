@@ -24,7 +24,7 @@ public class Student3 implements Cloneable {
 
 	@Override
 	public int hashCode() {
-		return Objects.hash(id,name,age,dept);
+		return Objects.hash(id, name, age, dept);
 	}
 
 	@Override
@@ -34,8 +34,6 @@ public class Student3 implements Cloneable {
 
 		return id == id && name.equals(name) && age == age && dept.equals(dept);
 	}
-	
-	
 
 	@Override
 	protected Object clone() throws CloneNotSupportedException {
@@ -45,14 +43,14 @@ public class Student3 implements Cloneable {
 	public static void main(String[] args) throws CloneNotSupportedException {
 
 		Student3 s1 = new Student3(101, "Suresh", 21, "Cse");
-		Student3 s2=(Student3)s1.clone();
-		
+		Student3 s2 = (Student3) s1.clone();
+
 		System.out.println(s1);
 		System.out.println();
 		System.out.println(s2);
 
 		System.out.println();
-		
+
 		System.out.println(s1.equals(s2));
 		System.out.println();
 

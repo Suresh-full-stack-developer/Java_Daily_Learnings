@@ -22,7 +22,7 @@ class lower extends top {
 
 }
 
-public class parent {
+public class SingleLevel {
 
 	public static void main(String[] args) {
 
