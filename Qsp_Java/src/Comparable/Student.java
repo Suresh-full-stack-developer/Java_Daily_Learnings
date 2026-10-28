@@ -20,14 +20,26 @@ public class Student implements Comparable<Student> {
 
 	}
 
+//	@Override
+//	public int compareTo(Student o) {
+//		return this.id - o.id;
+//	}
+	
+//	@Override
+//	public int compareTo(Student o) {
+//		return this.name.compareTo(o.name);
+//	}
+	
 	@Override
 	public int compareTo(Student o) {
-		return this.id - o.id;
+		return this.age-o.age;
 	}
+	
+	
 
 	@Override
 	public String toString() {
-		return "\n"+"Id:" + id + " "+ "Name:" + name +" " + "Age:" + age;
+		return "\n" + "Id:" + id + " " + "Name:" + name + " " + "Age:" + age;
 	}
 
 	public static void main(String[] args) {
