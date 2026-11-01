@@ -19,7 +19,7 @@ public class Student implements Comparable<Student> {
 		super();
 
 	}
-
+	
 //	@Override
 //	public int compareTo(Student o) {
 //		return this.id - o.id;
@@ -36,7 +36,6 @@ public class Student implements Comparable<Student> {
 	}
 	
 	
-
 	@Override
 	public String toString() {
 		return "\n" + "Id:" + id + " " + "Name:" + name + " " + "Age:" + age;
@@ -51,7 +50,7 @@ public class Student implements Comparable<Student> {
 		Student list[] = { s1, s2, s3 };
 		Arrays.sort(list);
 		System.out.println(Arrays.toString(list));
-
+	
 	}
 
 }
