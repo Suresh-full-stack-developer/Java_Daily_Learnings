@@ -10,9 +10,9 @@ public class Array {
 		
 		// Add the element in an array
 		al.add(10);
-		al.add(20);
+		al.add(90);
 		al.add(30);
-		al.add(40);
+		al.add(80);
 		al.add(50);
 		al.add(60);
 		
@@ -24,6 +24,14 @@ public class Array {
 		al.set(4, 500);
 		
 		System.out.println("Updated Array:"+al);
+		
+		//Size of an array
+		System.out.println(al.size());
+		
+		//Sort the array
+		al.sort(null);
+		
+		System.out.println("Sorted Array:"+al);
 		
 		//remove the element
 		
@@ -62,7 +70,8 @@ public class Array {
 		System.out.println(al);
 		
 		//Remove all
-		al.removeAll(al);
+		//al.removeAll(al);
+		al.clear();
 		System.out.println(al);
 	}
 
