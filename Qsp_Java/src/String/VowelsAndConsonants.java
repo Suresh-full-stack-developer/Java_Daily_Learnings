@@ -11,12 +11,12 @@ public class VowelsAndConsonants {
 			char ch=s.charAt(i);
 			if(ch=='A' || ch=='a' || ch=='E' || ch=='e' || ch=='I' || ch=='i' || ch=='O' || ch=='o' || ch=='U' || ch=='u') 
 				vowels++;
-			else if (ch != " " ) {
-				consonant++;
+//			else if (ch != " " ) {
+//				consonant++;
 		}
 		System.out.println("Vowels Count:"+vowels);
 		System.out.println("Consonants Count:"+consonant);
 	}
 
 }
-}
+//}
