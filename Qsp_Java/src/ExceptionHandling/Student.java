@@ -23,6 +23,7 @@ public class Student {
 		
 		s=null;
 		
+		//NullPointerException
 		System.out.println(s.id);
 		System.out.println(s.name);
 		System.out.println(s.age);
